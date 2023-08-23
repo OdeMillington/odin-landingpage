@@ -64,8 +64,9 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    width:50%;
+    width:40%;
     background-color: rgb(212, 212, 212);
+    flex-shrink: 0;
 }
 
 #hero-main {
@@ -137,7 +138,7 @@ button {
 .quote {
     background-color: #e5e7eb;
     display: flex;
-    padding: 8em 30em;
+    padding: 8em 20em;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -164,7 +165,6 @@ button {
     justify-content: center;
     border:1px solid #3882f6;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
-    margin: 0px 30em;
     border-radius: 10px;
     background-color: #3882f6;
     gap:10em
